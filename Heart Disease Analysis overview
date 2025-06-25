@@ -1,0 +1,36 @@
+ **Project Summary**
+   This project presents an interactive Power BI dashboard built to analyze clinical data of heart disease patients and identify key survival trends across various age groups and conditions.
+The dashboard provides a data-driven insight into how factors such as age, serum creatinine levels, ejection fraction, smoking, anaemia, high blood pressure, and diabetes affect patient survival.
+
+**Key Insights**
+Overall Survival Rate: 67.89%
+Average Age of Survivors: 58.76 years
+Total Survivors: 203
+Total Deaths: 96
+Highest survival seen in the 60–70 age group, with a survival rate over 75%
+Lower survival rate observed in patients below 40 and those above 70
+
+*Features of the Dashboard
+Dynamic KPIs: Survival Rate, Avg Age, Total Survivals & Deaths
+Dual-axis combo charts to show count vs. average serum creatinine & ejection fraction by age group
+Gender-based filtering using custom buttons
+Dumbbell and stacked area chart to show impact of clinical factors by age
+Visually rich layout with custom icons and a medical theme
+
+**Tools & Technologies**
+--Power BI Desktop
+DAX Measures for custom calculations (e.g., Survival Rate, Average Age)
+Power Query for data transformation
+Custom visual formatting & interactivity
+
+**Dataset**
+The dataset is a clinical heart failure record collection with fields like:
+Age
+DEATH_EVENT
+Serum Creatinine
+Ejection Fraction
+Anaemia, Diabetes, High Blood Pressure
+Smoking Status
+.
+Purpose
+This dashboard helps medical professionals, researchers, and analysts understand which demographic and medical variables are most associated with survival — allowing better risk stratification and decision-making.
